@@ -8,6 +8,7 @@
     height: calc(100vh - 70px);
     top: 70px;
     scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
 }
 
 .sections > * {

@@ -4,7 +4,7 @@ import './Intro.css'
 
 const Intro = () => {
   return (
-    <section className="intro"></section>
+    <section className="intro" id ="intro"></section>
   )
 }
 

@@ -4,7 +4,7 @@ import './Specs.css'
 
 const Specs = () => {
   return (
-    <section className="specs"></section>
+    <section className="specs" id="specification"></section>
   )
 }
 

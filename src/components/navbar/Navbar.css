@@ -3,4 +3,34 @@
     height: 70px;
     width: 100%;
     background-color: darkslategray;
+    transition: all 1s ease-in;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 15%;
+}
+
+.right {
+    height: 100%;
+    width: 25%;
+}
+
+.list-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
 }
