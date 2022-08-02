@@ -24,21 +24,5 @@
     height: auto;
     width: 80%;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-    animation: rotation 20s infinite linear;
     border: 2px solid black;
-}
-
-
-@keyframes rotation {
-    0% {
-        transform: rotateY(0deg);
-    }
-
-    25% {
-        transform: rotateY(45deg);
-    }
-
-    75% {
-        transform: rotateY(-45deg);
-    }
 }
