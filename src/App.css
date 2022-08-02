@@ -1,6 +1,8 @@
 .app {
     height: 100vh;
-    background-color: #a3a3a3;
+    background-image: url("./images/background.jpg");
+    background-repeat: repeat-x;
+    animation: animatedBackground 40s infinite linear;
 }
 
 .sections {
@@ -18,4 +20,18 @@
     width: 100vw;
     height: calc(100vh - 70px);
     scroll-snap-align: start;
+}
+
+@keyframes animatedBackground {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 200% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
 }
