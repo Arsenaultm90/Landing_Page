@@ -1,8 +1,8 @@
 .app {
     height: 100vh;
     background-image: url("./images/background.jpg");
-    background-repeat: repeat-x;
-    animation: animatedBackground 40s infinite linear;
+    background-repeat: repeat;
+    animation: animatedBackground 2000s infinite linear;
 }
 
 .sections {
@@ -28,7 +28,7 @@
     }
 
     50% {
-        background-position: 200% 0;
+        background-position: 1000% 0;
     }
 
     100% {
