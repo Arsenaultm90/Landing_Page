@@ -5,7 +5,7 @@ import picklerLogo from "../../images/pickleLogo.jpg";
 
 const Content = () => {
   return (
-    <section className='content'>
+    <section className='content' id='content'>
       <div className='content-container'>
         <div className='img-container'>
           <img src={picklerLogo} alt='' />

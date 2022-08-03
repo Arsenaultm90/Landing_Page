@@ -1,15 +1,11 @@
 .app {
     height: 100vh;
-    background-image: url("./images/background.jpg");
-    background-repeat: repeat;
-    animation: animatedBackground 2000s infinite linear;
 }
 
 .sections {
     position: relative;
     margin: 0 auto;
     width: 100%;
-    /* max-width: 1600px; */
     height: calc(100vh - 70px);
     top: 70px;
     scrollbar-width: none;
@@ -21,18 +17,4 @@
     width: 100vw;
     height: calc(100vh - 70px);
     scroll-snap-align: start;
-}
-
-@keyframes animatedBackground {
-    0% {
-        background-position: 0 0;
-    }
-
-    50% {
-        background-position: 1000% 0;
-    }
-
-    100% {
-        background-position: 0 0;
-    }
 }

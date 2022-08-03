@@ -1,14 +1,15 @@
 import React from "react";
 import "../../global.css";
 import "./Navbar.css";
+import pickleIcon from "../../images/pickleIcon.png";
 
 const Navbar = () => {
   return (
     <section className='navbar'>
       <div className='navbar-container'>
         <div className='left'>
+          <img src={pickleIcon} alt='' />
           <h1>Pickle Wars</h1>
-          <h5>by Redwood Games</h5>
         </div>
         <nav className='right'>
           <ul className='list-items'>
