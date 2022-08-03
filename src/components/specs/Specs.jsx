@@ -10,6 +10,7 @@ import pickle4 from "../../images/pickle4.jpg";
 const Specs = () => {
   const [currentSlide, setCurrentSlide] =
     useState(0);
+
   const pickleImages = [
     {
       id: 1,
@@ -73,8 +74,85 @@ const Specs = () => {
             onClick={() => handleClick()}
           />
         </div>
-        <span className='divider'></span>
-        <div className='bottom'></div>
+        <div className='bottom'>
+          <span className='divider'></span>
+
+          <div className='info-container'>
+            <div className='require-container'>
+              <h1>REQUIREMENTS</h1>
+              <ul>
+                <li>
+                  <span>CPU: </span> 486DX 66 MHz
+                  or better processor (Pentium
+                  recommended)
+                </li>
+                <li>
+                  <span>RAM: </span> 16 megabytes
+                  (MB) of memory (24 MB
+                  recommended)
+                </li>
+                <li>
+                  <span>Size: </span> 120 MB
+                  minimum of free hard-disk space
+                </li>
+                <li>
+                  <span>Install: </span> CD-ROM or
+                  DVD-ROM drive
+                </li>
+                <li>
+                  <span>Monitor: </span> Display
+                  adapter and monitor that support
+                  VGA or higher resolution
+                </li>
+                <li>
+                  <span>Mouse: </span> Microsoft
+                  Mouse or compatible pointing
+                  device.
+                </li>
+              </ul>
+            </div>
+            <span className='v-divider'></span>
+            <div className='instruction-container'>
+              <h1>INSTALLATION</h1>
+              <ul>
+                <li>
+                  1. Insert Pickle Wars™ CD-ROM
+                  into CD-ROM Drive.
+                </li>
+                <li>
+                  2. Double click 'My Computer' on
+                  your Desktop.
+                </li>
+                <li>
+                  3. Look for your Disk Drive and
+                  double click it.
+                </li>
+                <li>
+                  4. When the installation window
+                  appears click the 'Install'
+                  button.
+                </li>
+                <li>
+                  5. Click 'Yes' on every window
+                  without reading so we can
+                  collect your data.
+                </li>
+                <li>
+                  6. PATIENTLY wait 10 hours.
+                </li>
+                <li>
+                  7. Once the game is installed,
+                  double click the desktop icon
+                  labelled 'Pickle Wars'™.
+                </li>
+                <li>
+                  8. If you receive any errors it
+                  may be because its 2022.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );

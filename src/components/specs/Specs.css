@@ -15,6 +15,7 @@
     align-items: center;
     justify-content: center;
     height: 100%;
+
 }
 
 .top .arrow {
@@ -24,14 +25,16 @@
 }
 
 .top .left {
-    left: 100px;
+    left: 200px;
     transform: rotateY(180deg);
     cursor: pointer;
+    height: 100px;
 }
 
 .top .right {
-    right: 100px;
+    right: 200px;
     cursor: pointer;
+    height: 100px;
 }
 
 .slider {
@@ -63,4 +66,88 @@
     width: 100%;
     height: 100%;
     object-fit: contain;
+}
+
+.divider {
+    display: block;
+    height: 3px;
+    width: 95vw;
+    background-color: black;
+    margin: 10px auto;
+}
+
+.bottom {
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bottom h1 {
+    font-size: 3rem;
+    color: white;
+    margin: 30px auto;
+}
+
+.info-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.require-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.require-container ul {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.require-container li span {
+    font-weight: 700;
+}
+
+.require-container li {
+    margin: 20px 0;
+    color: #a3a3a3;
+}
+
+.v-divider {
+    display: block;
+    height: 90%;
+    width: 2px;
+    background-color: black;
+    margin: auto 0;
+}
+
+.instruction-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.instruction-container ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+}
+
+.instruction-container li {
+    margin: 10px 0;
+    color: #a3a3a3;
 }

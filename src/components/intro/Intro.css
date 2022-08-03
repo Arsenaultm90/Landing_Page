@@ -12,7 +12,9 @@
 
 .video-container {
     position: relative;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 350px 1fr;
+    grid-template-rows: 1fr 300px 1fr;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -20,11 +22,13 @@
 }
 
 .video-container iframe {
+    position: absolute;
     display: block;
-    top: 60px;
-    margin-bottom: 35%;
-    min-height: 380px;
-    min-width: 440px;
+    top: 34%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 340px;
+    width: 320px;
 }
 
 .video-container img {
@@ -32,7 +36,9 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: auto;
+    /* height: auto; */
     max-height: 90vh;
-    width: 70%;
+    min-height: 747.5px;
+    max-width: 800px;
+    width: 60%;
 }
