@@ -12,6 +12,7 @@
     max-width: 1600px;
     height: calc(100vh - 70px);
     top: 70px;
+    scrollbar-width: none;
     scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
 }
