@@ -1,153 +1,154 @@
 .specs {
-    background-color: #1b1b1b;
+	background-color: #1b1b1b;
 }
 
 .specs-container {
-    display: grid;
-    grid-template-rows: repeat(2, 1fr);
-    height: 100%;
-    width: 100%;
+	display: grid;
+	grid-template-rows: repeat(2, 1fr);
+	height: 100%;
+	width: 100%;
 }
 
 .top {
-    display: flex;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-
+	display: flex;
+	position: relative;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
 }
 
 .top .arrow {
-    height: 50px;
-    width: auto;
-    position: absolute;
+	height: 50px;
+	width: auto;
+	position: absolute;
 }
 
 .top .left {
-    left: 200px;
-    transform: rotateY(180deg);
-    cursor: pointer;
-    height: 100px;
+	left: 200px;
+	transform: rotateY(180deg);
+	cursor: pointer;
+	height: 100px;
 }
 
 .top .right {
-    right: 200px;
-    cursor: pointer;
-    height: 100px;
+	right: 200px;
+	cursor: pointer;
+	height: 100px;
 }
 
 .slider {
-    height: 350px;
-    display: flex;
-    position: absolute;
-    left: 0;
-    transition: all 1s ease-out;
+	height: 350px;
+	display: flex;
+	position: absolute;
+	left: 0;
+	transition: all 1s ease-out;
 }
 
 .slider-container {
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .item {
-    width: 700px;
-    height: 100%;
-    background-color: black;
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+	width: 700px;
+	height: 100%;
+	background-color: black;
+	border-radius: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .item img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
 }
 
 .divider {
-    display: block;
-    height: 3px;
-    width: 95vw;
-    background-color: black;
-    margin: 10px auto;
+	display: block;
+	height: 3px;
+	width: 95vw;
+	background-color: black;
+	margin: 10px auto;
 }
 
 .bottom {
-    height: 100%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-direction: column;
+	height: 100%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: column;
 }
 
 .bottom h1 {
-    font-size: 3rem;
-    color: white;
-    margin: 30px auto;
+	font-size: 3rem;
+	color: white;
+	margin: 20px auto;
 }
 
 .info-container {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    justify-content: space-evenly;
-    align-items: flex-start;
+	display: flex;
+	width: 100%;
+	height: 100%;
+	justify-content: space-evenly;
+	align-items: flex-start;
 }
 
 .require-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
 }
 
 .require-container ul {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
 }
 
 .require-container li span {
-    font-weight: 700;
+	font-weight: 700;
 }
 
 .require-container li {
-    margin: 20px 0;
-    color: #a3a3a3;
+	margin: 10px 0;
+	color: #a3a3a3;
+	font-size: 1.5vmin;
 }
 
 .v-divider {
-    display: block;
-    height: 90%;
-    width: 2px;
-    background-color: black;
-    margin: auto 0;
+	display: block;
+	height: 90%;
+	width: 2px;
+	background-color: black;
+	margin: auto 0;
 }
 
 .instruction-container {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .instruction-container ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	height: 100%;
 }
 
 .instruction-container li {
-    margin: 10px 0;
-    color: #a3a3a3;
+	margin: 10px 0;
+	color: #a3a3a3;
+	font-size: 1.5vmin;
 }
